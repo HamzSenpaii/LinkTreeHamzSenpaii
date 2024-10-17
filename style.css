@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://widipe.com/file/qfNohUiOy8wN.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ margin: 20px auto;
+ background: url('https://widipe.com/file/6J6ZNXE5BDZQ.jpg') no-repeat center center;
+ background-size: cover;
+}
+
+h1 {
+ font-size: 2em;
+ margin: 10px 0;
+}
+
+p {
+ margin: 5px 0;
+}
+
+.donate {
+ font-size: 1.5em;
+ margin: 10px 0;
+}
+
+.link-card {
+ display: flex;
+ justify-content: space-between;
+ background: #2c2c54;
+ border-radius: 20px;
+ margin: 10px 0;
+ padding: 15px;
+ align-items: center;
+ color: white;
+ text-decoration: none;
+ border: 2px solid #2c2c54;
+ box-shadow: 8px 10px 0 black;
+ transition: background 0.3s ease;
+}
+
+.link-card:hover {
+  border: 2px solid white;
+}
+
+.link-icon {
+  background-image: linear-gradient(to top, #cca9dd, purple);
+  padding: 0.5rem;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-action {
+  color: #8787a3;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+ul.links li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+ul {
+  width: 80%;
+  max-width: 40rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sosial1 {
+  margin-top: 1rem;
+}
+
+.sosial-icons {
+  margin-top: 1rem;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.social-icons i:hover {
+  margin: 20px 0;
+  color: white;
+}
+
+.social-icons a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.link-action {
+  color: #8787a3;
+  cursor: pointer;
+  padding: 10px;
+}
+
+#toast {
+  width: max-content;
+  position: fixed;
+  top: 0;
+}
+
+.toast-container {
+  background-color: white;
+  color: #0f0f25;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  animation: muncul 300ms ease-in-out;
+}
+
+#particles-js {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: 0;
+}
+@media (max-width: 600px) {
+ .profile-pic {
+ width: 100px;
+ height: 100px;
+}
+
+h1 {
+ font-size: 1.5em;
+}
+
+.donate {
+ font-size: 1.2em;
+}
+
+.link {
+ padding: 10px;
+}
+
+.social-icons i {
+ font-size: 1.2em;
+}
+}
